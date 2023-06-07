@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ranga&display=swap');
+
+ ul.a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+ li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;}
+
+
+header{
+    margin-top: 50px; 
+    font-family: 'Ranga', cursive;
+    font-size: 24vh;
+    display: inline-block;
+    background: url(krishi.png) center  ;
+    background-repeat: no-repeat;
+    background-size: 330px 330px;
+    }
+
+ /* footer{
+  color: aqua;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 5vh ;
+ } */
+ .intro{
+  font-size: 20px;
+  text-decoration: none;
+  text-align:justify;
+ }
+ .intro:hover{
+  text-decoration: underline;
+ }

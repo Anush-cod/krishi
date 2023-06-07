@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="submit.css">
+    <title>CUSTOMER CARE</title>
+</head>
+<body>
+    <div class="query-box">
+    <form action="krishi.php">
+        <label for="Fname">FIRST</label>
+        <input type="text" class="user-box">
+        <label for="Mname">Middle</label><br>
+        <input type="text" class="user-box"><br>
+        <label for="Lname"> Last</label><br>
+        <input type="text" class="user-box"><br>
+        <label for="country">Country</label><br>
+        <select class="user-box" name="country">
+            <option value="Your loctaion" selected>Your location</option>
+            <option value="Nepal">Nepal</option>
+            <option value="India">India</option>
+            <option value="China">China</option>
+            <option value="Australia">Australia</option>
+            <option value="France">France</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="Sri Lanka">Sri Lanka</option>
+            <option value="Bhutan">Bhutan</option>
+            <option value="Britian">Britian</option>
+        </select><br>
+        <label for="care">Your Queries:</label><br>
+        <textarea name="Queries" rows="10" cols="35" placeholder="Donot hesitate to complain our problem" style="margin-top: 5px;"></textarea>
+    </form>
+    </div>
+    <br>
+    <center>
+<input type="submit"  class="submit" value="SUBMIT">
+</center>
+</body>
+</html>
